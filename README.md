@@ -27,3 +27,4 @@ The `PIR metion sensor`, on the right, returns a boolean when it senses movement
 
 <img width="294" alt="image" src="https://user-images.githubusercontent.com/56971054/165433744-39eb6902-a257-4a4e-9a87-f05900959752.png">
 The `heart-rate sensor`, which is connected to the ESP8266 microprocessor, returns an integer that represents the BPMs. The screens will register heart rate variations. The more the heart-beat varies, the longer the image will distort.
+
