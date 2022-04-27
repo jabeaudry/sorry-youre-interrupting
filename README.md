@@ -21,10 +21,10 @@ Using TouchDesigner, four videos are cast on independent grids that move based o
 
 ## The Sensors
 <img width="353" alt="image" src="https://user-images.githubusercontent.com/56971054/165433103-aa7795ff-77ee-4d38-a183-e75f3f1bfa46.png">
-The `ultrasonic sensor`, on the left, measures the viewer's distance and returns an integer. The closer the viewer comes to a specific screen, the more the image will grow and prevent the user from seeing the bigger picture.<br><br>
+The <code> ultrasonic sensor</code>, on the left, measures the viewer's distance and returns an integer. The closer the viewer comes to a specific screen, the more the image will grow and prevent the user from seeing the bigger picture.<br><br>
 
-The `PIR metion sensor`, on the right, returns a boolean when it senses movement. The screens will ripple with noise, making it harder to distinguish what is being seen.
+The `PIR motion sensor`, on the right, returns a boolean when it senses movement. The screens will ripple with noise, making it harder to distinguish what is being seen.
 
 <img width="294" alt="image" src="https://user-images.githubusercontent.com/56971054/165433744-39eb6902-a257-4a4e-9a87-f05900959752.png">
-The `heart-rate sensor`, which is connected to the ESP8266 microprocessor, returns an integer that represents the BPMs. The screens will register heart rate variations. The more the heart-beat varies, the longer the image will distort.
+The <code>heart-rate sensor</code>, which is connected to the ESP8266 microprocessor, returns an integer that represents the BPMs. The screens will register heart rate variations. The more the heart-beat varies, the longer the image will distort.
 
